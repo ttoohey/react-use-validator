@@ -172,10 +172,10 @@ providing those errors so that another network request isn't needed.
 ```js
 async function handleSubmit() {
   // ... check there are no messages ...
-  const response = await API.submit(formData)
+  const response = await API.submit(formData);
   if (response.errors) {
     // inject server errors into the validator
-    await validate(null, [[ server, response.errors ]])
+    await validate(formData, [[server, response.errors]]);
   } else {
     // ... handle successful submit ...
   }
