@@ -2,7 +2,10 @@
   "name": "react-use-validator",
   "version": "1.0.0",
   "description": "A React Hook to handle form validation messages",
-  "keywords": ["validation", "react hooks"],
+  "keywords": [
+    "validation",
+    "react hooks"
+  ],
   "homepage": "https://github.com/ttoohey/react-use-validator",
   "bugs": "https://github.com/ttoohey/react-use-validator/issues",
   "license": "ISC",
@@ -40,7 +43,7 @@
   "dependencies": {
     "react": "^16.7.0-alpha",
     "react-dom": "^16.7.0-alpha",
-    "validator-creator": "^1.1.0"
+    "validator-creator": "^1.1.1"
   },
   "babel": {
     "comments": false,
