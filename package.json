@@ -24,25 +24,25 @@
     "prepare": "npm run clean && npm run build"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.0",
-    "@babel/core": "^7.2.0",
-    "@babel/preset-env": "^7.2.0",
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "babel-preset-minify": "^0.5.0",
-    "eslint": "^5.10.0",
-    "eslint-config-prettier": "^3.3.0",
+    "eslint": "^5.15.0",
+    "eslint-config-prettier": "^3.6.0",
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^8.0.0",
-    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "prettier": "^1.15.3"
+    "prettier": "^1.16.4"
   },
   "dependencies": {
-    "react": "^16.7.0-alpha",
-    "react-dom": "^16.7.0-alpha",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
     "validator-creator": "^1.1.1"
   },
   "babel": {
