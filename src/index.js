@@ -50,16 +50,13 @@ export default function(rules, rules1 = {}, options = {}) {
   const messages = useMemo(() => merge(state0, state1), [state0, state1]);
   const [interval, setInterval] = useState(0);
   const [delayedMessages, setDelayedMessages] = useState({});
-  useEffect(
-    () => {
-      if (interval < 0) {
-        return;
-      }
-      const timeout = setTimeout(() => setDelayedMessages(messages), interval);
-      return () => clearTimeout(timeout);
-    },
-    [messages, interval]
-  );
+  useEffect(() => {
+    if (interval < 0) {
+      return;
+    }
+    const timeout = setTimeout(() => setDelayedMessages(messages), interval);
+    return () => clearTimeout(timeout);
+  }, [messages, interval]);
   const validate = async (change = null, ...args) => {
     const start = Date.now();
     setInterval(-1);
