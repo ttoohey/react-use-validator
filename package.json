@@ -1,6 +1,6 @@
 {
   "name": "react-use-validator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A React Hook to handle form validation messages",
   "keywords": [
     "validation",
