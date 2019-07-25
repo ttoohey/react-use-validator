@@ -24,24 +24,24 @@
     "prepare": "npm run clean && npm run build"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^10.0.2",
     "babel-preset-minify": "^0.5.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^3.6.0",
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "prettier": "^1.18.2"
   },
   "dependencies": {
-    "validator-creator": "^1.1.1"
+    "validator-creator": "^1.1.2"
   },
   "peerDependencies": {
     "react": ">= 16.8.0"
